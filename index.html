@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <style>
+            h3 {
+                color: red;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+        <!-- semantic tags 
+        <header>
+        <nav>
+        <main>
+        <section> dependent content
+        <aside> side content (ex ads on the side)
+        <article> independent content
+        <footer>
+        -->
+        <header style="background-color: aqua; position: sticky; top: 0px;">
+            <h1>This is a test website</h1>
+            <a href="https://www.google.com" target="_blank" title="Goes to google">
+                click me
+            </a>
+            <br>
+
+            <a href="lyrics.html" target="_blank">
+                song lyrics
+            </a>
+            <br>
+
+            <a href="mailto:ivanmc13579@gmail.com" target="_blank">
+                email me
+            </a>
+            <hr>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h3>This is a cute cat</h3>
+            <a href="https://en.wikipedia.org/wiki/Cat">
+                <img src="images/cute cat.jpeg" alt="This is a picture of a cute cat" height="200">
+            </a>
+
+            <img src="images/cat nodding.gif" alt="cat nodding gif">
+
+            <p>Guess I'll Never Know</p>
+            <audio controls autoplay muted loop>
+                <source src="music/Guess I_ll Never Know.wav - TrackTribe.mp3" type="audio/mp3">
+                <source src="music/Guess I_ll Never Know.wav - TrackTribe.wav" type="audio/wav">
+            </audio>
+            <p>High Noon</p>
+            <audio controls>
+                <source src="music/High Noon - TrackTribe.mp3">
+            </audio>
+            <p>Is this Really Happening</p>
+            <audio controls>
+                <source src="music/Is This Really Happening_ - TrackTribe.mp3">
+            </audio>
+            <hr>
+
+            <a href="https://zh.wikipedia.org/zh-tw/%E7%91%9E%E5%85%8B%E6%90%96" target="_blank">
+                <video width="500px" controls autoplay muted loop>
+                <source src="video/rickroll.mp4" type="video/mp4">
+                <source src="video/rickroll.webm" type="video/webm">
+                </video>
+            </a>
+            <hr>
+
+            <p>This is normal text</p>
+            <p>This is <b>bold</b> text</p>
+            <p>This is <i>italic</i> text</p>
+            <p>This is <u>underlined</u> text</p>
+            <p>This is <del>deleted</del> text</p>
+            <p>This is <big>big</big> text</p>
+            <p>This is <small>small</small> text</p>
+            <p>This is <sub>subscript</sub> text</p>
+            <p>This is <sup>superscript</sup> text</p>
+            <p>This is <tt>monoscaped</tt> text</p>
+            <p>This is <mark style="background-color: rgb(20, 106, 135);">mark</mark> text</p>
+            <hr>
+            
+            <h3><span style="background-color: aqua;">This is a span title</span></h3>
+            <h3><div style="background-color: aquamarine;">This is a div title</div></h3>
+
+            <p><span style="background-color: azure;">This is a span sentence</span></p>
+            <p><div style="background-color: beige;">This is a div sentence</div></p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span style="background-color: blue;">Totam vero minima voluptas, non repudiandae iste alias a sequi adipisci tenetur sit quo similique ipsam. Officiis voluptatum incidunt commodi laboriosam reiciendis!<span></p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <div style="background-color: blueviolet;">Totam vero minima voluptas, non repudiandae iste alias a sequi adipisci tenetur sit quo similique ipsam. Officiis voluptatum incidunt commodi laboriosam reiciendis!</div></p>
+            <hr>
+
+            <h3>Groceries</h3>
+            <ul>
+                <li>milk</li>
+                <li>eggs</li>
+                <li>bread</li>
+                <li>coffee supplies</li>
+                <ul>
+                    <li>coffee beans</li>
+                    <li>creamer</li>
+                    <li>suger</li>
+                </ul>
+            </ul>
+            <h3>To do list</h3>
+            <ol>
+                <li>eat breakfast</li>
+                <li>go to class</li>
+                <li>walk dog</li>
+                <li>work</li>
+            </ol>
+
+            <h3>Cute animals</h3>
+            <dl style="background-color: lightgreen; border: 2px solid;">
+                <dt>cat</dt>
+                <dd>a small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws. It is widely kept as a pet or for catching mice, and many breeds have been developed.</dd>
+                <dt>dog</dt>
+                <dd>a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractable claws, and a barking, howling, or whining voice.</dd>
+            </dl>
+            <hr>
+
+            <h3>Store Hours</h3>
+            <table border="1" style="background-color: black;">
+                <tr align="center" style="background-color: lightblue;">
+                    <th width="100">Sunday</th>
+                    <th width="100">Monday</th>
+                    <th width="100">Tuesday</th>
+                    <th width="100">Wednesday</th>
+                    <th width="100">Thursday</th>
+                    <th width="100">Friday</th>
+                    <th width="100">Satuday</th>
+                </tr>
+                <tr align="center" style="background: azure;">
+                    <th>Closed</th>
+                    <th>9-5</th>
+                    <th>9-5</th>
+                    <th>9-5</th>
+                    <th>9-5</th>
+                    <th>9-5</th>
+                    <th>10-2</th>
+                </tr>
+            </table>
+            <hr>
+
+            <a href="https://www.google.com" target="_blank">
+                <button style="font-size: 25px; background-color: aquamarine; color: lightblue; border-radius: 5px;">click me</button>
+            </a>
+            <br>
+
+            <a href="lyrics.html" target="_blank">
+                <button style="font-size: 25px; background-color: aquamarine; color: lightblue; border-radius: 5px;">click me</button>
+            </a>
+            <br>
+
+            <button onclick="doSomething()" style="font-size: 25px; background-color: aquamarine; color: lightblue; border-radius: 5px;">click me</button>
+            <p id="greeting">Hello</p>
+            <script>
+                function doSomething() {
+                    document.getElementById("greeting").innerHTML = "Goodbye";
+                }
+            </script>
+
+            <form action="index.php" method="POST" enctype="multipart/form-data">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="SpongeBob" minlength="6" maxlength="15" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Squarepants@gmail.com">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <br>
+                <label for="bday">Birthdate:</label>
+                <input type="date" id="bday">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="0" max="99" value="1">
+                <br>
+                <label for="title">Title:</label>
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." value="Mr." name="title">
+                <label for="Ms.">Ms.</label>
+                <input type="radio" id="Ms." value="Ms." name="title">
+                <label for="PhD.">Mr.</label>
+                <input type="radio" id="PhD." value="PhD." name="title">
+                <br>
+                <label for="payment">Payment:</label>
+                <select>
+                    <option value="visa">visa</option>
+                    <option value="mastercard">mastercard</option>
+                    <option value="giftcard">giftcard</option>
+                </select>
+                <br>
+                <label for="subscribe">Subscribe:</label>
+                <input type="checkbox" id="subscribe">
+                <br>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" rows="3" cols="25" placeholder="Type something"></textarea>
+                    <br>
+                <label for="file">File(png/jpeg):</label>
+                <input type="file" id="file" accept="image/png, image/jpeg">
+                <br>
+
+                <input type="reset">
+                <input type="submit">
+            </form>
+            <hr>
+
+            <div style="background-color: azure;">
+                <h3>CSS test</h3>
+                <p id="p1" class="hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat inventore nobis enim ullam fugit illum? Molestiae rerum facilis error aspernatur, odit dignissimos hic unde ad tempora, repellendus neque quaerat.</p>
+                <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat inventore nobis enim ullam fugit illum? Molestiae rerum facilis error aspernatur, odit dignissimos hic unde ad tempora, repellendus neque quaerat.</p>
+                <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat inventore nobis enim ullam fugit illum? Molestiae rerum facilis error aspernatur, odit dignissimos hic unde ad tempora, repellendus neque quaerat.</p>
+                <p id="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat inventore nobis enim ullam fugit illum? Molestiae rerum facilis error aspernatur, odit dignissimos hic unde ad tempora, repellendus neque quaerat.</p>
+            </div>
+            <hr>
+
+            <h2>Border</h2>
+            <p id="pborder">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maxime saepe laboriosam harum voluptas debitis ullam, exercitationem quod illo vel expedita tempora recusandae, dolorum minima magnam inventore enim autem distinctio?</p>
+            <hr>
+
+            <h4 id="h4shadow">Shadow</h4>
+            <div id="box1"></div>
+            <hr>
+
+            <h3 class="noMargin">Margins</h3>
+            <p id="box2" class="box">BOX</p>
+            <hr>
+
+            <div style="border: 3px solid; display: flow-root">
+                 <h3>Float</h3>
+                <img src="/images/Rick.jpeg" id="img1">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, deleniti. Enim labore dignissimos eaque voluptate vero sunt autem cum, corrupti cumque nihil dolorum tempore laboriosam quo, ipsum quas aliquam recusandae.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, deleniti. Enim labore dignissimos eaque voluptate vero sunt autem cum, corrupti cumque nihil dolorum tempore laboriosam quo, ipsum quas aliquam recusandae.</p>
+                <img src="images/cute cat.jpeg" height="200px" id="img2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, deleniti. Enim labore dignissimos eaque voluptate vero sunt autem cum, corrupti cumque nihil dolorum tempore laboriosam quo, ipsum quas aliquam recusandae.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, deleniti. Enim labore dignissimos eaque voluptate vero sunt autem cum, corrupti cumque nihil dolorum tempore laboriosam quo, ipsum quas aliquam recusandae.</p>
+            </div>
+            <hr>
+
+            <div id="overflowDiv">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dignissimos atque iste sit et temporibus, dolorem sint nulla doloribus mollitia, ipsam facilis quisquam! Maxime modi, dolores molestias molestiae illo unde.</p>
+            </div>
+            <hr>
+
+            <div>
+                <div id="divTest">div</div>
+                <span id="spanTest">span</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, non consectetur. Accusamus ipsum natus amet odio pariatur nesciunt totam. Ad voluptates perspiciatis et eaque sed maiores vel totam ut illum?</p>
+            </div>
+            <hr>
+
+            <div id="container">
+                <p>This is #1</p>
+                <p>This is #2</p>
+                <div>
+                    <p>This is #3</p>
+                </div>
+            </div>
+            <p>This is #4</p>
+            <p>This is #5</p>
+            <hr>
+
+            <ul>
+                <li class="pseudoClass">This is #1</li>
+                <li class="pseudoClass">This is #2</li>
+                <li class="pseudoClass">This is #3</li>
+                <li class="pseudoClass">This is #4</li>
+                <li class="pseudoClass">This is #5</li>
+                <li class="pseudoClass">This is #6</li>
+                <li class="pseudoClass">This is #7</li>
+                <li class="pseudoClass">This is #8</li>
+                <li class="pseudoClass">This is #9</li>
+            </ul>
+            <div id="greeting">
+                <h3>Hover here</h3>
+                <p>Hello</p>
+            </div>
+            <hr>
+
+            <h3 class="title">HELLO</h3>
+            <p class="firstLine">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque cupiditate sunt animi distinctio quos, impedit beatae, odio tempore pariatur nesciunt aliquam ut laboriosam minus vero perspiciatis molestias molestiae maiores!</p>
+            <ul id="fruit">
+                <li id="apple">apple</li>
+                <li id="orange">orange</li>
+                <li id="banana">banana</li>
+            </ul>
+            <hr>
+
+            <div class="dropdown">
+                <button>Food</button>
+                <div class="content">
+                    <a href="">Apple</a>
+                    <a href="">Orange</a>
+                    <a href="">Banna</a>
+                </div>
+            </div>
+            <hr>
+
+            <div id="box3">Hi</div>
+        </main>
+
+        <footer style="background-color: aqua;">
+            <hr>
+            Author: River<br>
+            &copy; Copyright Reserved<br>
+            <a href="mailto:ivanmc13579@gmail.com">ivanmc13579@gmail.com</a>
+            <div class="pagination">
+                <a href="index.html"><</a>
+                <a href="index.html" class="active">1</a>
+                <a href="lyrics.html">2</a>
+                <a href="lyrics.html">></a>
+            </div>
+        </footer>
+    </body>
+</html>
